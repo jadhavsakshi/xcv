@@ -1,0 +1,23 @@
+git init
+git add.
+git commit -m "added"
+git branch -M main
+
+git remote add origin "http"
+git push -u origin main
+
+make chnage in folder
+
+git commit -m "chnaged"
+git push origin main
+
+git branch wad
+git checkout wad
+git add .
+git commit -m "adddd wad"
+git push origin wad
+
+git checkout main
+git fetch origin
+git merge main
+git push origin main
